@@ -61,7 +61,7 @@ button.addEventListener('click', function () {
                 } 
 
                 }else {
-                    this.classList.add("color-blue");
+                    this.classList.add("safe-block");
                 }
             })
 
@@ -97,7 +97,7 @@ button.addEventListener('click', function () {
                     }
 
                 } else {
-                    this.classList.add("color-blue");
+                    this.classList.add("safe-block");
                 }
             })
 
@@ -132,7 +132,7 @@ button.addEventListener('click', function () {
                     }
 
                 } else {
-                    this.classList.add("color-blue");
+                    this.classList.add("safe-block");
                 }
             })
 

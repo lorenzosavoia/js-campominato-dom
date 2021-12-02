@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+.d-flex{
+    display: flex;
+    height: 100%;
+}
+
+
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left,
+.header-right{
+    padding: 1em;  
+}
+.header-title{
+    align-self: center;
+}
+.diff{
+    align-self: center;
+    margin: .5em;
+}
+#difficulty{
+    align-self: center;
+}
+.container-main{
+    width: 100%;
+    height: 80vh;
+    background-color: #7fffd4;
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 80vh;
+    margin: auto;
+    padding: 5em 0;
+}
+
+.show{
+    display: block;
+}
+
+.active{
+    display: none;
+}
+
+.active.show{
+    display: block;
+}

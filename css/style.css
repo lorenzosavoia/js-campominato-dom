@@ -70,3 +70,11 @@ html{
 .active.show{
     display: block;
 }
+
+.bomb {
+    background-color: red;
+}
+
+.color-blue {
+    background-color: blue;
+}
